@@ -293,7 +293,6 @@ span.span1 {
     position: relative;
 }
 
-
 /* about */
 
 h3.pos-title {
@@ -1524,6 +1523,33 @@ span.icon_g_plus {
 }
 
 
+.toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 24px;
+    left: 3%;
+    overflow: hidden;
+    z-index: 999;
+    width: 80px;
+    height: 80px;
+    border: none;
+    text-indent: 100%;
+    background: url(../images/pen.gif) no-repeat 0px 0px;
+}
+
+.toTopHover {
+    width: 80px;
+    height: 80px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
 /*-- //bottom-to-top --*/
 
 
@@ -1631,6 +1657,12 @@ span.icon_g_plus {
     figure.port-gird:hover figcaption.port-gird-caption-agileits_w3layouts {
         top: 100px;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 1366px) {
@@ -1646,6 +1678,12 @@ span.icon_g_plus {
     h3.pos-title1 {
         left: 38%;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 1280px) {
@@ -1664,6 +1702,12 @@ span.icon_g_plus {
     figure.port-gird:hover figcaption.port-gird-caption-agileits_w3layouts {
         top: 72px;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 1080px) {
@@ -1699,6 +1743,12 @@ span.icon_g_plus {
     figcaption.port-gird-caption-agileits_w3layouts h3 {
         margin-top: 40px;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 1050px) {
@@ -1708,6 +1758,12 @@ span.icon_g_plus {
     .banner-text {
         margin: 9.9em auto;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 1024px) {
@@ -1721,6 +1777,12 @@ span.icon_g_plus {
     figcaption.port-gird-caption-agileits_w3layouts h3 {
         margin-top: 22px;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 991px) {
@@ -1776,6 +1838,12 @@ span.icon_g_plus {
     .contact-right-w3l {
         width: 66%;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 900px) {
@@ -1830,6 +1898,12 @@ span.icon_g_plus {
     figcaption.port-gird-caption-agileits_w3layouts h3 {
         padding: 19px 0px;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 800px) {
@@ -1892,6 +1966,12 @@ span.icon_g_plus {
         margin-top: 6px;
         font-size: 1.6em;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (min-width: 800px) {
@@ -1911,6 +1991,12 @@ span.icon_g_plus {
 		flex: 1;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	
     }
+	
+		.graphic
+    {
+    width:800px;
+    }
+	
 }
 
 @media screen and (max-width: 768px) {
@@ -1934,6 +2020,12 @@ span.icon_g_plus {
     .skills-bar {
         width: 55%;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 767px) {
@@ -2014,6 +2106,12 @@ span.icon_g_plus {
     .banner-text h3 {
         font-size: 4.5em;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 736px) {
@@ -2044,6 +2142,12 @@ span.icon_g_plus {
     figcaption.port-gird-caption-agileits_w3layouts h3 {
         margin-top: 0px;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 667px) {
@@ -2081,6 +2185,12 @@ span.icon_g_plus {
     figcaption.port-gird-caption-agileits_w3layouts h3 {
         padding: 10px 0px;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 640px) {
@@ -2121,6 +2231,12 @@ span.icon_g_plus {
     figure.port-gird:hover figcaption.port-gird-caption-agileits_w3layouts {
         top: 81%;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 600px) {
@@ -2163,6 +2279,12 @@ span.icon_g_plus {
     .about-btm-w3_agileits {
         padding-top: 3em;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 568px) {
@@ -2217,6 +2339,12 @@ span.icon_g_plus {
     figure.port-gird:hover figcaption.port-gird-caption-agileits_w3layouts {
         top: 68%;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 480px) {
@@ -2316,6 +2444,12 @@ span.icon_g_plus {
     figure.port-gird:hover figcaption.port-gird-caption-agileits_w3layouts {
         top: 81%;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 414px) {
@@ -2369,6 +2503,12 @@ span.icon_g_plus {
     figure.port-gird:hover figcaption.port-gird-caption-agileits_w3layouts {
         top: 78%;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 384px) {
@@ -2436,6 +2576,12 @@ span.icon_g_plus {
     .sec-title {
         font-size: 2.2em;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 375px) {
@@ -2473,6 +2619,12 @@ span.icon_g_plus {
     .header-agileinfo {
         min-height: 470px;
     }
+	
+		.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 @media screen and (max-width: 320px) {
@@ -2551,6 +2703,12 @@ span.icon_g_plus {
     .banner-text {
         margin: 1em auto;
     }
+	
+	.graphic
+    {
+    width:100%;
+    }
+	
 }
 
 
